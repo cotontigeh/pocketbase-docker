@@ -1,7 +1,7 @@
 FROM alpine:3.20
 
 # Build arguments
-ARG PB_VERSION=0.22.24
+ARG PB_VERSION=0.22.26
 
 RUN apk add --no-cache \
     unzip \
